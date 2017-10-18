@@ -356,67 +356,55 @@
 	"buffers":
 	[
 		{
-			"file": "src/index.js",
+			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 115,
+				"buffer_size": 92,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/dog.js",
+			"file": "src/shared/config.js",
 			"settings":
 			{
-				"buffer_size": 175,
+				"buffer_size": 135,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "",
+			"file": "src/server/render-app.js",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Unix",
-				"name": "Find References",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/custom_current_file_path_name.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 312,
+				"buffer_size": 350,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nSublimeLinter-flow\n------------------\n\n  SublimeLinter-flow\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to flow.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-flow\n\n\nSublimeLinter\n-------------\n\n  \n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n  \n  \n  Welcome to SublimeLinter, a linter framework for Sublime Text 3.\n  \n                   * * * IMPORTANT! * * *\n  \n          Linters *NOT* included with SublimeLinter 3,\n          they must be installed separately.\n  \n                  * * * READ THE DOCS! * * *\n  \n  Otherwise you will never know how to install linters, nor will\n  you know about all of the great new features in SublimeLinter 3.\n  \n  For complete documentation on how to install and use SublimeLinter,\n  please see:\n  \n  http://www.sublimelinter.com\n  \n  \n                   _   _      _       _\n                  | | | | ___| |_ __ | |\n                  | |_| |/ _ \\ | '_ \\| |\n                  |  _  |  __/ | |_) |_|\n                  |_| |_|\\___|_| .__/(_)\n                               |_|\n  \n  \n  Hundreds of hours have been spent writing and documenting SublimeLinter\n  to make it the best it can be — easy to use, easy to configure,\n  easy to update, easy to extend. If you use SublimeLinter and feel\n  it is making your coding life better and easier, please consider\n  making a donation to help fund development and support.\n  \n  To donate: https://github.com/SublimeLinter/SublimeLinter3#share-the-love\n  \n  Thank you!\n\n\nSublimeLinter-flow\n------------------\n\n  SublimeLinter-flow\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to flow.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-flow\n\n\nSublimeLinter-flow\n------------------\n\n  SublimeLinter-flow\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to flow.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-flow\n",
+			"file": "src/shared/util.js",
 			"settings":
 			{
-				"buffer_size": 2633,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 127,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "src/server/index.js",
 			"settings":
 			{
-				"buffer_size": 49,
+				"buffer_size": 612,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 667,
+				"buffer_size": 884,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -443,30 +431,67 @@
 			"file": ".eslintrc.json",
 			"settings":
 			{
-				"buffer_size": 178,
+				"buffer_size": 211,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 60,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/User/sass-eslint.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/User/chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/User/sass-eslint.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/sass-eslint.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 137.0,
-		"last_filter": "Package Control: remove",
+		"height": 236.0,
+		"last_filter": "install",
 		"selected_items":
 		[
 			[
-				"Package Control: remove",
-				"Package Control: Remove Package"
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"next",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
 			],
 			[
 				"Package Control: isntall",
 				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
 			],
 			[
 				"Package Control: remo",
@@ -489,19 +514,11 @@
 				"Snippet: custom_current_file_path_name"
 			],
 			[
-				"Package Control: insta",
-				"Package Control: Install Package"
-			],
-			[
 				"Package Control: ",
 				"Package Control: Remove Package"
 			],
 			[
 				"Package Control: Install",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -513,7 +530,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 428.0
+		"width": 412.0
 	},
 	"console":
 	{
@@ -539,8 +556,18 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/tern_for_sublime/Default.sublime-keymap",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/ESLint/ESLint.sublime-build",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/ESLint/ESLint.py",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/sass-eslint.sublime-build",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/ESLint/Main.sublime-menu",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/coverage/clover.xml",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/index.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/dog.test.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/dog.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/.gitattributes",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/.gitignore",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/custom_current_file_path_name.sublime-snippet",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/tern_for_sublime/Default.sublime-keymap",
 		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/Flow.sublime-build",
 		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/ESLint & Flow.sublime-build",
 		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/Flow/Default.sublime-keymap",
@@ -559,7 +586,6 @@
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/js/components/App.jsx",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/webpack.config.js",
 		"/C/Users/Ben/Desktop/main.min.scss",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/.gitignore",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/index.html",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/.babelrc",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/index.js",
@@ -657,16 +683,7 @@
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/vendor/sublime/sassp-bfox-settings.sublime-project",
 		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/vendor/sublime/sassp.sublime-project",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/lab/angular-fullstack/client/app/app.ts",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/lab/angular-fullstack/client/app/main/main.component.ts",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/lab/angular-fullstack/client/app/foo/foo.component.ts",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/vendor/pear/net_socket/Net/Socket.php",
-		"/C/Users/Ben/AppData/Local/Temp/tmp14C2.tmp.js",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/essence/google_home-announce-launch/app/scripts/main.js",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/essence/google_home-announce-launch/app/styles/main.scss",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/essence/google_home-announce-launch/app/index.html",
-		"/C/Users/Ben/AppData/Local/Temp/tmpAA0C.tmp.scss",
-		"/C/Users/Ben/AppData/Local/Temp/tmpBB31.tmp.js"
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/lab/angular-fullstack/client/app/app.ts"
 	],
 	"find":
 	{
@@ -702,24 +719,81 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/index.js",
+					"file": "public/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 115,
+						"buffer_size": 92,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								87,
-								87
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/shared/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								84
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/server/render-app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
 							]
 						],
 						"settings":
@@ -734,20 +808,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "src/dog.js",
+					"buffer": 3,
+					"file": "src/shared/util.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 175,
+						"buffer_size": 127,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								68,
-								68
+								127,
+								127
 							]
 						],
 						"settings":
@@ -758,121 +832,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/custom_current_file_path_name.sublime-snippet",
+					"buffer": 4,
+					"file": "src/server/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 312,
+						"buffer_size": 612,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44,
-								44
+								611,
+								611
 							]
 						],
 						"settings":
 						{
-							"default_extension": "sublime-snippet",
-							"syntax": "Packages/XML/XML.sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2633,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								547,
-								547
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 39.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 49,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16,
-								16
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -883,24 +871,24 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 667,
+						"buffer_size": 884,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								183,
-								201
+								451,
+								451
 							]
 						],
 						"settings":
@@ -910,14 +898,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 78.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": ".flowconfig",
 					"semi_transient": false,
 					"settings":
@@ -941,11 +929,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": ".babelrc",
 					"semi_transient": false,
 					"settings":
@@ -957,8 +945,8 @@
 						"selection":
 						[
 							[
-								38,
-								38
+								44,
+								44
 							]
 						],
 						"settings":
@@ -969,24 +957,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": ".eslintrc.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 178,
+						"buffer_size": 211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								64,
-								29
+								209,
+								209
 							]
 						],
 						"settings":
@@ -997,7 +985,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 60,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1065,7 +1081,7 @@
 	},
 	"output.exec":
 	{
-		"height": 179.0
+		"height": 317.0
 	},
 	"output.find_results":
 	{
@@ -1075,7 +1091,7 @@
 	{
 		"height": 27.0
 	},
-	"pinned_build_system": "Packages/ESLint/ESLint.sublime-build",
+	"pinned_build_system": "",
 	"project": "bfi2017.sublime-project",
 	"replace":
 	{
