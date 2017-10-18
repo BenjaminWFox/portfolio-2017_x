@@ -1,0 +1,1133 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"web",
+				"webpack-dev-server"
+			],
+			[
+				"sassp_inclu",
+				"sassp_include_select_save"
+			],
+			[
+				"help",
+				"helping"
+			],
+			[
+				"alread",
+				"alreadyHelping"
+			],
+			[
+				"opac",
+				"opacify\tSass-function"
+			],
+			[
+				"animation",
+				"animationDuration\tnum "
+			],
+			[
+				"translate",
+				"translateY"
+			],
+			[
+				"anim",
+				"animationDuration\tnum "
+			],
+			[
+				"lockupText",
+				"lockupTextEl\t? "
+			],
+			[
+				"captionTe",
+				"captionTextEl\t{} "
+			],
+			[
+				"legal",
+				"legalTextFontSize\t? "
+			],
+			[
+				"Legal",
+				"Legal_Text_1\tstr "
+			],
+			[
+				"legalTex",
+				"legalTextArray\t[] "
+			],
+			[
+				"popupText",
+				"popupTextEl\t{} "
+			],
+			[
+				"constantUp",
+				"constantUpdateTime\tnum "
+			],
+			[
+				"num",
+				"numConstantUpdates"
+			],
+			[
+				"occasion",
+				"occasionalUpdateTime\tnum "
+			],
+			[
+				"const",
+				"constantUpdate\tnum "
+			],
+			[
+				"transl",
+				"translateX"
+			],
+			[
+				"update",
+				"updateElementCharacter(element, p_charArray, p_data) -> {}\tfn "
+			],
+			[
+				"charac",
+				"charactersInMatrix\t{} "
+			],
+			[
+				"character",
+				"charactersInMatrix\t[] "
+			],
+			[
+				"matrix",
+				"matrixCharArray\t[] "
+			],
+			[
+				"p_char",
+				"p_charPosition\tnum "
+			],
+			[
+				"getsc",
+				"getCharScale(p_charPosition, p_totalOtherChars) -> string|number\tfn "
+			],
+			[
+				"get",
+				"getContainer()\tfn "
+			],
+			[
+				"spriteRea",
+				"spriteReady\tbool "
+			],
+			[
+				"spriteReady",
+				"spriteReadyEvent\t? "
+			],
+			[
+				"sprite",
+				"spriteImageElement\t{} "
+			],
+			[
+				"svg",
+				"svgSprite\t? "
+			],
+			[
+				"lockup",
+				"lockupAnimation() -> TimelineMax\tfn "
+			],
+			[
+				"lock",
+				"lockupAnimation() -> TimelineMax\tfn "
+			],
+			[
+				"caption",
+				"captionDelay\tnum "
+			],
+			[
+				"headl",
+				"headlineTextArray\t[] "
+			],
+			[
+				"headline",
+				"headlineTextEl\t{} "
+			],
+			[
+				"spwan",
+				"spawnCycles\tnum "
+			],
+			[
+				"stream",
+				"streamHeight\t? "
+			],
+			[
+				"p_pare",
+				"p_parentElement"
+			],
+			[
+				"equa",
+				"equationArray\t[] "
+			],
+			[
+				"equati",
+				"equationRight\tstr "
+			],
+			[
+				"allowedChar",
+				"allowedChars"
+			],
+			[
+				"allowed",
+				"allowedOperators\tstr "
+			],
+			[
+				"matri",
+				"matrixGrid\t[] "
+			],
+			[
+				"p_strea",
+				"p_streamHeight\t? "
+			],
+			[
+				"popup",
+				"popupWrapperEl\t? "
+			],
+			[
+				"rep",
+				"repeat"
+			],
+			[
+				"frame",
+				"frameLengthSeconds\tnum "
+			],
+			[
+				"label",
+				"labelId\tstr "
+			],
+			[
+				"thisEle",
+				"thisElement\t? "
+			],
+			[
+				"thisElem",
+				"thisElementContent\t{} "
+			],
+			[
+				"captionTex",
+				"captionTextArray\t[] "
+			],
+			[
+				"captionWr",
+				"captionWrapperEl\t{} "
+			],
+			[
+				"captionT",
+				"captionTextArray\t[] "
+			],
+			[
+				"g",
+				"goToNextFrame() -> number\tfn "
+			],
+			[
+				"price",
+				"priceText\tstr "
+			],
+			[
+				"backgroun",
+				"backgroundImage\tstr "
+			],
+			[
+				"logo",
+				"logoEl\t{} "
+			],
+			[
+				"chara",
+				"characterElement\t{} "
+			],
+			[
+				"loadin",
+				"loadingEl\t{} "
+			],
+			[
+				"return",
+				"returnCircleAnimation(p_circle)\tfn "
+			],
+			[
+				"mid",
+				"midY\tnum "
+			],
+			[
+				"clas",
+				"className\tstr "
+			],
+			[
+				"p_",
+				"p_planeObj"
+			],
+			[
+				"transfo",
+				"transform-origin: "
+			],
+			[
+				"twee",
+				"TweenLite"
+			],
+			[
+				"plan",
+				"planeObj"
+			],
+			[
+				"orig",
+				"originY"
+			],
+			[
+				"pla",
+				"planeObj"
+			],
+			[
+				"to",
+				"to"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"total",
+				"totalClouds"
+			],
+			[
+				"ad",
+				"ad-container"
+			],
+			[
+				"buttonDi",
+				"buttonsDisabled"
+			],
+			[
+				"prev",
+				"previousYOffset"
+			],
+			[
+				"current",
+				"currentYOffset"
+			],
+			[
+				"slides",
+				"slides"
+			],
+			[
+				"hei",
+				"containerHeight"
+			],
+			[
+				"button",
+				"buttonsDisabled"
+			],
+			[
+				"TOT",
+				"totalSlides"
+			],
+			[
+				"transla",
+				"translateY"
+			],
+			[
+				"trnasl",
+				"translateY()"
+			],
+			[
+				"images",
+				"imagesElement"
+			],
+			[
+				"x",
+				"translateX()"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"totalV",
+				"totalValuesSelected"
+			],
+			[
+				"values",
+				"valuesArray"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 115,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/dog.js",
+			"settings":
+			{
+				"buffer_size": 175,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Find References",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/custom_current_file_path_name.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 312,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeLinter-flow\n------------------\n\n  SublimeLinter-flow\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to flow.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-flow\n\n\nSublimeLinter\n-------------\n\n  \n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n  \n  \n  Welcome to SublimeLinter, a linter framework for Sublime Text 3.\n  \n                   * * * IMPORTANT! * * *\n  \n          Linters *NOT* included with SublimeLinter 3,\n          they must be installed separately.\n  \n                  * * * READ THE DOCS! * * *\n  \n  Otherwise you will never know how to install linters, nor will\n  you know about all of the great new features in SublimeLinter 3.\n  \n  For complete documentation on how to install and use SublimeLinter,\n  please see:\n  \n  http://www.sublimelinter.com\n  \n  \n                   _   _      _       _\n                  | | | | ___| |_ __ | |\n                  | |_| |/ _ \\ | '_ \\| |\n                  |  _  |  __/ | |_) |_|\n                  |_| |_|\\___|_| .__/(_)\n                               |_|\n  \n  \n  Hundreds of hours have been spent writing and documenting SublimeLinter\n  to make it the best it can be — easy to use, easy to configure,\n  easy to update, easy to extend. If you use SublimeLinter and feel\n  it is making your coding life better and easier, please consider\n  making a donation to help fund development and support.\n  \n  To donate: https://github.com/SublimeLinter/SublimeLinter3#share-the-love\n  \n  Thank you!\n\n\nSublimeLinter-flow\n------------------\n\n  SublimeLinter-flow\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to flow.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-flow\n\n\nSublimeLinter-flow\n------------------\n\n  SublimeLinter-flow\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to flow.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/SublimeLinter/SublimeLinter-flow\n",
+			"settings":
+			{
+				"buffer_size": 2633,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 49,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 667,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".flowconfig",
+			"settings":
+			{
+				"buffer_size": 65,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".babelrc",
+			"settings":
+			{
+				"buffer_size": 44,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".eslintrc.json",
+			"settings":
+			{
+				"buffer_size": 178,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "Package Control: remove",
+		"selected_items":
+		[
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: custom_current_file_path_name"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"view.run_command(\"example\")"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src"
+	],
+	"file_history":
+	[
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/tern_for_sublime/Default.sublime-keymap",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/dog.js",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/Flow.sublime-build",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/ESLint & Flow.sublime-build",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/Flow/Default.sublime-keymap",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/Flow/Flow.sublime-settings",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/SublimeOnSaveBuild/README.md",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/ESLint.sublime-settings",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/ESLint/ESLint.sublime-settings",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/index.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/sass/main.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/js/index.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/sass/_custom.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/package.json",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/js/components/App.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/webpack.config.js",
+		"/C/Users/Ben/Desktop/main.min.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/.gitignore",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/index.html",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/.babelrc",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/index.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/components/App.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/css/_custom.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/client/css/main.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/js/helloworld.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/js/HelloForm.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/js/HelloSayer.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/index.html",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/js/helloworld.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/js/hello.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/js/world.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/js/helloworld.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/js/hello.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/hello.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/js/HelloForm.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/js/HelloSayer.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/js/WorldSayer.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/js/HelloWorld.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/HelloSayer.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/HelloWorld.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/WorldSayer.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/HelloForm.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/index.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/hello.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/world.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/build/app.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/HelloSayer.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/HelloFrom.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/build/index.html",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/app/component.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/build/index.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/zeeks/scripts/view/LevelView.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/zeeks/scripts/view/ControlView.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/zeeks/scripts/view/SliderView.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/zeeks/scripts/view/BallView.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/zeeks/scripts/controller/Game.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/zeeks/scripts/model/GameModel.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/zeeks/scripts/classes/UI.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/zeeks/archive/v1/scripts/scripts.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_update/public/data/development.json",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/zeeks/index.html",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-config.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/.gitmodules",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/js/app.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/plugins/sassp-shift-management/shortcodes/shift-trading.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/plugins/sassp-shift-management/sassp-shift-management.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/plugins/sassp-shift-management/classes/sassp-dbaccess.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/plugins/sassp-shift-management/shortcodes/coverage-manager.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/header-sassp.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/functions/functions.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/functions/connect.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/_settings.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/sassp.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/admin/myshifts.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/admin/shifts.php",
+		"/C/Users/Ben/Desktop/char_encoding_switch.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/admin/coverage.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/page-templates/page-sidebar-left.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/sassp-custom/custom-user-list-display-fields.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/sassp-custom/custom-user-fields.php",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-includes/general-template.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/page-templates/front-sassp.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/templates/_front-sassp.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/modules/_navigation-sassp.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/dist/assets/js/app.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/js/lib/foundation-explicit-pieces.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/app.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/modules/_navigation.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/modules/_content.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/library/foundation.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/page-templates/front.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/modules/_login.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/sassp-custom/functions.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/library/navigation.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/.htaccess",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/functions.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/index.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/header.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/admin/viewshift.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/admin/view.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/twentyseventeen/functions.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/index.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/functions.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/connect.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/main.css",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/includes/main.css",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/index.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/functions/functions.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/thanks.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/functions/connect.php",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/.gitignore",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/vendor/sublime/sassp-bfox-settings.sublime-project",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/vendor/sublime/sassp.sublime-project",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/lab/angular-fullstack/client/app/app.ts",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/lab/angular-fullstack/client/app/main/main.component.ts",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/lab/angular-fullstack/client/app/foo/foo.component.ts",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/vendor/pear/net_socket/Net/Socket.php",
+		"/C/Users/Ben/AppData/Local/Temp/tmp14C2.tmp.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/essence/google_home-announce-launch/app/scripts/main.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/essence/google_home-announce-launch/app/styles/main.scss",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/essence/google_home-announce-launch/app/index.html",
+		"/C/Users/Ben/AppData/Local/Temp/tmpAA0C.tmp.scss",
+		"/C/Users/Ben/AppData/Local/Temp/tmpBB31.tmp.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 156.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"line"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/dog.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/custom_current_file_path_name.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"default_extension": "sublime-snippet",
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 39.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": ".flowconfig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": ".babelrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": ".eslintrc.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.787990196078,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.648109243697,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 179.0
+	},
+	"output.find_results":
+	{
+		"height": 230.0
+	},
+	"output.xdebug":
+	{
+		"height": 27.0
+	},
+	"pinned_build_system": "Packages/ESLint/ESLint.sublime-build",
+	"project": "bfi2017.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inde",
+				"app\\index.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 588.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 588.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
