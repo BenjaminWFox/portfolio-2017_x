@@ -1,7 +1,6 @@
 .DS_Store
 /*.log
-/*.sublime-project
-
+/*.sublime-*
 node_modules/
 coverage/
 /dist/
