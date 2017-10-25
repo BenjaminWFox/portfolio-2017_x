@@ -71,7 +71,7 @@
     "webpack-dev-server": "^2.9.2"
   },
   "engines": {
-    "node": "7.x",
-    "yarn": "0.20.3"
+    "node": "6.x",
+    "yarn": "1.x"
   }
 }
