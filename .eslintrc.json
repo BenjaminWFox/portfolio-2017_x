@@ -12,7 +12,12 @@
     "compat"
   ],
   "rules": {
-    "linebreak-style": ["error", "unix"]
+    "linebreak-style": ["error", "unix"],
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link", "NavLink" ],
+      "specialLink": [ "to" ],
+      "aspects": []
+    }]
   },
   "settings": {
     "polyfills": ["fetch"]
