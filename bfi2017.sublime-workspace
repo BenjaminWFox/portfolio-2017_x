@@ -359,74 +359,16 @@
 			"file": "src/client/index.jsx",
 			"settings":
 			{
-				"buffer_size": 1441,
+				"buffer_size": 1862,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/client/component/page/hello.jsx",
+			"file": "src/shared/app.jsx",
 			"settings":
 			{
-				"buffer_size": 251,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/client/component/page/home.jsx",
-			"settings":
-			{
-				"buffer_size": 100,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/client/component/page/hello-async.jsx",
-			"settings":
-			{
-				"buffer_size": 292,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/client/component/page/not-found.jsx",
-			"settings":
-			{
-				"buffer_size": 120,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/shared/routes.js",
-			"settings":
-			{
-				"buffer_size": 341,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/client/component/nav.jsx",
-			"settings":
-			{
-				"buffer_size": 732,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "// @flow\n\nimport React from 'react';\nimport { Switch } from 'react-router';\nimport { Route } from 'react-router-dom';\nimport { APP_NAME } from '../shared/config';\nimport Nav from './component/nav';\nimport HomePage from './component/page/home';\nimport HelloPage from './component/page/hello';\nimport HelloAsyncPage from './component/page/hello-async';\nimport NotFoundPage from './component/page/not-found';\nimport {\n  HOME_PAGE_ROUTE,\n  HELLO_PAGE_ROUTE,\n  HELLO_ASYNC_PAGE_ROUTE,\n} from '../shared/routes';\n\nconst App = () => (\n  <div>\n    <h1>{APP_NAME}</h1>\n    <Nav />\n    <Switch>\n      <Route exact path={HOME_PAGE_ROUTE} render={() => <HomePage />} />\n      <Route path={HELLO_PAGE_ROUTE} render={() => <HelloPage />} />\n      <Route path={HELLO_ASYNC_PAGE_ROUTE} render={() => <HelloAsyncPage />} />\n      <Route component={NotFoundPage} />\n    </Switch>\n  </div>\n);\n\nexport default App;\n",
-			"file": "src/client/app.jsx",
-			"file_size": 895,
-			"file_write_time": 131534141379877840,
-			"settings":
-			{
-				"buffer_size": 895,
-				"encoding": "UTF-8",
+				"buffer_size": 992,
 				"line_ending": "Unix"
 			}
 		},
@@ -434,7 +376,8 @@
 			"file": "webpack.config.babel.js",
 			"settings":
 			{
-				"buffer_size": 929,
+				"buffer_size": 1092,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -442,7 +385,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 2084,
+				"buffer_size": 2256,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -453,7 +396,15 @@
 			{
 				"buffer_size": 65,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/shared/config.js",
+			"settings":
+			{
+				"buffer_size": 518,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -469,7 +420,7 @@
 			"file": ".eslintrc.json",
 			"settings":
 			{
-				"buffer_size": 280,
+				"buffer_size": 427,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -600,34 +551,57 @@
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component/page",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared"
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/server",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/component",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/component/page"
 	],
 	"file_history":
 	[
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/component/page/home.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/server/index.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/component/nav.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/server/render-app.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/component/modal-example.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/component/page/hello-async.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/app.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/component/footer.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/component/button.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/component/page/not-found.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/component/page/hello.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/action/hello.test.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/index.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/action/hello.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/routes.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/server/controller.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/socket.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/server/socket.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/config.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/server/init-store.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/server/routing.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/app.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component/nav.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component/page/not-found.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component/page/hello-async.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component/page/home.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component/page/hello.jsx",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/yarn.lock",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/webpack.config.babel.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/routes.test.js",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/index.jsx",
 		"/C/Users/Ben/Downloads/pub-site-global-scripts (1).js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/_job-related/Ben_Fox_Resume - Copy.doc",
 		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Installed Packages/SublimeLinter-flow.sublime-package",
 		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Installed Packages/Flow.sublime-package",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/routes.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component/button.jsx",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/reducer/hello.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/reducer/hello.test.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/action/hello.test.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/action/hello.js",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/app.jsx",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/container/message-async.js",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/server/index.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/container/hello-async-button.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/container/message.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/container/hello-button.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component/message.jsx",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/config.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/util.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/server/render-app.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/public/css/style.css",
@@ -711,33 +685,11 @@
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/plugins/sassp-shift-management/shortcodes/shift-trading.php",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/plugins/sassp-shift-management/sassp-shift-management.php",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/plugins/sassp-shift-management/classes/sassp-dbaccess.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/plugins/sassp-shift-management/shortcodes/coverage-manager.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/header-sassp.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/functions/functions.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/functions/connect.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/_settings.scss",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/sassp.scss",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/admin/myshifts.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/admin/shifts.php",
-		"/C/Users/Ben/Desktop/char_encoding_switch.js",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/admin/coverage.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/page-templates/page-sidebar-left.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/sassp-custom/custom-user-list-display-fields.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/sassp-custom/custom-user-fields.php",
-		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-includes/general-template.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/page-templates/front-sassp.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/templates/_front-sassp.scss",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/modules/_navigation-sassp.scss",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/dist/assets/js/app.js",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/js/lib/foundation-explicit-pieces.js",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/app.scss",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/modules/_navigation.scss",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/modules/_content.scss"
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/plugins/sassp-shift-management/shortcodes/coverage-manager.php"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -751,6 +703,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jest",
 			"line"
 		],
 		"highlight": true,
@@ -769,7 +722,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -778,15 +731,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1441,
+						"buffer_size": 1862,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								358,
-								358
+								712,
+								712
 							]
 						],
 						"settings":
@@ -796,208 +749,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 78.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/client/component/page/hello.jsx",
+					"file": "src/shared/app.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 251,
+						"buffer_size": 992,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								251,
-								251
+								992,
+								992
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JSX/JSX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/client/component/page/home.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 100,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								100,
-								100
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSX/JSX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/client/component/page/hello-async.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								292,
-								292
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSX/JSX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/client/component/page/not-found.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 120,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								120,
-								120
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSX/JSX.tmLanguage"
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/shared/routes.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 341,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								53
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/client/component/nav.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 732,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								732,
-								732
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSX/JSX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/client/app.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 895,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								827,
-								827
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSX/JSX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1007,20 +792,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 8,
+					"buffer": 2,
 					"file": "webpack.config.babel.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 929,
+						"buffer_size": 1092,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1077,
+								1077
 							]
 						],
 						"settings":
@@ -1030,10 +815,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1043,20 +828,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 9,
+					"buffer": 3,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2084,
+						"buffer_size": 2256,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								857,
-								857
+								992,
+								992
 							]
 						],
 						"settings":
@@ -1069,11 +854,11 @@
 						"translation.y": 234.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 4,
 					"file": ".flowconfig",
 					"semi_transient": false,
 					"settings":
@@ -1097,11 +882,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 5,
+					"file": "src/shared/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								518,
+								518
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": ".babelrc",
 					"semi_transient": false,
 					"settings":
@@ -1125,24 +938,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 7,
 					"file": ".eslintrc.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 280,
+						"buffer_size": 427,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								278,
-								278
+								277,
+								277
 							]
 						],
 						"settings":
@@ -1150,14 +963,14 @@
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 39.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 8,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
@@ -1181,7 +994,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -1232,13 +1045,13 @@
 		"cols":
 		[
 			0.0,
-			0.648897058823,
+			0.578431372548,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.709798165842,
+			0.595444685466,
 			1.0
 		]
 	},
@@ -1272,6 +1085,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"not-fou",
+				"src\\shared\\component\\page\\not-found.jsx"
+			],
 			[
 				"inde",
 				"app\\index.js"

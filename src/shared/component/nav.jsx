@@ -17,7 +17,7 @@ const handleNavLinkClick = () => {
 };
 
 const Nav = () => (
-  <nav className="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+  <nav className="navbar navbar-dark  bg-dark navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
     <button className="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target=".js-navbar-collapse">
       <span className="navbar-toggler-icon" />
     </button>
