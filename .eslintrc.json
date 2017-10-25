@@ -13,5 +13,8 @@
   ],
   "rules": {
     "linebreak-style": ["error", "unix"]
+  },
+  "settings": {
+    "polyfills": ["fetch"]
   }
 }

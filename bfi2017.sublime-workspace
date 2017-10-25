@@ -356,47 +356,85 @@
 	"buffers":
 	[
 		{
-			"file": "public/css/style.css",
+			"file": "src/client/index.jsx",
 			"settings":
 			{
-				"buffer_size": 92,
+				"buffer_size": 1441,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/shared/config.js",
+			"file": "src/client/component/page/hello.jsx",
 			"settings":
 			{
-				"buffer_size": 135,
+				"buffer_size": 251,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/server/render-app.js",
+			"file": "src/client/component/page/home.jsx",
 			"settings":
 			{
-				"buffer_size": 350,
+				"buffer_size": 100,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/shared/util.js",
+			"file": "src/client/component/page/hello-async.jsx",
 			"settings":
 			{
-				"buffer_size": 127,
+				"buffer_size": 292,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/server/index.js",
+			"file": "src/client/component/page/not-found.jsx",
 			"settings":
 			{
-				"buffer_size": 612,
+				"buffer_size": 120,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/shared/routes.js",
+			"settings":
+			{
+				"buffer_size": 341,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/client/component/nav.jsx",
+			"settings":
+			{
+				"buffer_size": 732,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "// @flow\n\nimport React from 'react';\nimport { Switch } from 'react-router';\nimport { Route } from 'react-router-dom';\nimport { APP_NAME } from '../shared/config';\nimport Nav from './component/nav';\nimport HomePage from './component/page/home';\nimport HelloPage from './component/page/hello';\nimport HelloAsyncPage from './component/page/hello-async';\nimport NotFoundPage from './component/page/not-found';\nimport {\n  HOME_PAGE_ROUTE,\n  HELLO_PAGE_ROUTE,\n  HELLO_ASYNC_PAGE_ROUTE,\n} from '../shared/routes';\n\nconst App = () => (\n  <div>\n    <h1>{APP_NAME}</h1>\n    <Nav />\n    <Switch>\n      <Route exact path={HOME_PAGE_ROUTE} render={() => <HomePage />} />\n      <Route path={HELLO_PAGE_ROUTE} render={() => <HelloPage />} />\n      <Route path={HELLO_ASYNC_PAGE_ROUTE} render={() => <HelloAsyncPage />} />\n      <Route component={NotFoundPage} />\n    </Switch>\n  </div>\n);\n\nexport default App;\n",
+			"file": "src/client/app.jsx",
+			"file_size": 895,
+			"file_write_time": 131534141379877840,
+			"settings":
+			{
+				"buffer_size": 895,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.babel.js",
+			"settings":
+			{
+				"buffer_size": 929,
 				"line_ending": "Unix"
 			}
 		},
@@ -404,7 +442,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 884,
+				"buffer_size": 2084,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -422,7 +460,7 @@
 			"file": ".babelrc",
 			"settings":
 			{
-				"buffer_size": 44,
+				"buffer_size": 104,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -431,7 +469,7 @@
 			"file": ".eslintrc.json",
 			"settings":
 			{
-				"buffer_size": 211,
+				"buffer_size": 280,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -440,7 +478,7 @@
 			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 60,
+				"buffer_size": 67,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -469,10 +507,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 236.0,
-		"last_filter": "install",
+		"height": 137.0,
+		"last_filter": "package control: install",
 		"selected_items":
 		[
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: rem",
+				"Package Control: Remove Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -530,7 +576,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 412.0
+		"width": 444.0
 	},
 	"console":
 	{
@@ -552,10 +598,40 @@
 	"expanded_folders":
 	[
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src"
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component/page",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared"
 	],
 	"file_history":
 	[
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/yarn.lock",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/webpack.config.babel.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/routes.test.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/index.jsx",
+		"/C/Users/Ben/Downloads/pub-site-global-scripts (1).js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/_job-related/Ben_Fox_Resume - Copy.doc",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Installed Packages/SublimeLinter-flow.sublime-package",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Installed Packages/Flow.sublime-package",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/routes.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component/button.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/reducer/hello.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/reducer/hello.test.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/action/hello.test.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/action/hello.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/app.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/container/message-async.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/server/index.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/container/hello-async-button.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/container/message.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/container/hello-button.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/client/component/message.jsx",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/config.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/shared/util.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/src/server/render-app.js",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/public/css/style.css",
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/bfi_2017/lib/shared/util.js",
 		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/ESLint/ESLint.sublime-build",
 		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/ESLint/ESLint.py",
 		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/User/sass-eslint.sublime-build",
@@ -657,33 +733,7 @@
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/js/lib/foundation-explicit-pieces.js",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/app.scss",
 		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/modules/_navigation.scss",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/modules/_content.scss",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/library/foundation.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/page-templates/front.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/modules/_login.scss",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/sassp-custom/functions.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/library/navigation.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/.htaccess",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/functions.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/index.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/header.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/admin/viewshift.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/admin/view.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/twentyseventeen/functions.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/index.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/functions.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/legacy/connect.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/main.css",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/includes/main.css",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/index.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/functions/functions.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/thanks.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/functions/connect.php",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/.gitignore",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/vendor/sublime/sassp-bfox-settings.sublime-project",
-		"/C/Users/Ben/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/current-central/vendor/sublime/sassp.sublime-project",
-		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/lab/angular-fullstack/client/app/app.ts"
+		"/C/Users/Ben/Documents/2._Dev_Design_Work/devRoot/sassp/foundation-central/wp-content/themes/FoundationPress/src/assets/scss/modules/_content.scss"
 	],
 	"find":
 	{
@@ -719,86 +769,115 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/css/style.css",
+					"file": "src/client/index.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 92,
+						"buffer_size": 1441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								89,
-								89
+								358,
+								358
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/shared/config.js",
+					"file": "src/client/component/page/hello.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 135,
+						"buffer_size": 251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								84
+								251,
+								251
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/JSX/JSX.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/server/render-app.js",
+					"file": "src/client/component/page/home.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 350,
+						"buffer_size": 100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								350,
-								350
+								100,
+								100
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/JSX/JSX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/client/component/page/hello-async.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -808,25 +887,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/shared/util.js",
+					"buffer": 4,
+					"file": "src/client/component/page/not-found.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 127,
+						"buffer_size": 120,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
+								120,
+								120
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/JSX/JSX.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -836,20 +915,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "src/server/index.js",
+					"buffer": 5,
+					"file": "src/shared/routes.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 612,
+						"buffer_size": 341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								611,
-								611
+								53,
+								53
 							]
 						],
 						"settings":
@@ -860,14 +939,67 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/client/component/nav.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								732,
+								732
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/client/app.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								827,
+								827
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		},
 		{
@@ -875,20 +1007,56 @@
 			"sheets":
 			[
 				{
-					"buffer": 5,
-					"file": "package.json",
+					"buffer": 8,
+					"file": "webpack.config.babel.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 884,
+						"buffer_size": 929,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								451,
-								451
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								857,
+								857
 							]
 						],
 						"settings":
@@ -898,14 +1066,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 78.0,
+						"translation.y": 234.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 10,
 					"file": ".flowconfig",
 					"semi_transient": false,
 					"settings":
@@ -929,24 +1097,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 11,
 					"file": ".babelrc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 44,
+						"buffer_size": 104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44,
-								44
+								102,
+								102
 							]
 						],
 						"settings":
@@ -957,24 +1125,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 12,
 					"file": ".eslintrc.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 211,
+						"buffer_size": 280,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								209,
-								209
+								278,
+								278
 							]
 						],
 						"settings":
@@ -982,27 +1150,27 @@
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 39.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 13,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 60,
+						"buffer_size": 67,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31,
-								31
+								67,
+								67
 							]
 						],
 						"settings":
@@ -1013,7 +1181,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
@@ -1064,13 +1232,13 @@
 		"cols":
 		[
 			0.0,
-			0.787990196078,
+			0.648897058823,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.648109243697,
+			0.709798165842,
 			1.0
 		]
 	},
@@ -1081,7 +1249,7 @@
 	},
 	"output.exec":
 	{
-		"height": 317.0
+		"height": 173.0
 	},
 	"output.find_results":
 	{
