@@ -13,7 +13,7 @@
     "compat"
   ],
   "rules": {
-    "linebreak-style": ["error", "unix"],
+    "linebreak-style": ["error", "windows"],
     "jsx-a11y/anchor-is-valid": [ "error", {
       "components": [ "Link", "NavLink" ],
       "specialLink": [ "to" ],
